@@ -23,7 +23,6 @@ const App = () => {
 
     winningCombos.forEach((array) => {
       let circleWins = array.every((cell) => cells[cell] === "circle");
-
       if (circleWins) {
         setWinningMessage("Circle Wins");
         return;
