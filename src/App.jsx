@@ -7,7 +7,7 @@ const App = () => {
   const [go, setGo] = useState("circle");
   const [winningMessage, setWinningMessage] = useState(null);
 
-  const message = go + "turn";
+  const message = go + " turn";
 
   const checkScore = () => {
     const winningCombos = [
